@@ -33,3 +33,14 @@ Alternance des deux taches
 
 
 # Implémentation de Modified Policy Iteration et Value iteration
+
+# Environnement Frozen Lake
+FrozenLake est un environnement Gym de type gridworld.
+L'agent possède 4 actions : 0: Move left
+1: Move down
+2: Move right
+3: Move up
+
+Toutes les actions ne sont cette fois toutefois pas deterministes , il ya possibilité de glisser,  si on choisit laction haut 
+on a 1/3 de chance d'aller en haut , 1/3 a droite et 1/3 a gauche.
+Il y a 16 states (cases) , dont certainnes sont de l'eau mortelle (done=True)
